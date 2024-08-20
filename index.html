@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grey+Qo&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-navbar">
+        <div class="logo-nama">
+          <img class="logo" src="/images/logo2.jpg" alt="" />
+          <p class="first-name">Sunday</p>
+          <p class="last-name">Mart</p>
+        </div>
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#product">Product</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+
+          <!-- <span class="search"><i class="fa-solid fa-magnifying-glass"></i></span> -->
+          <button class="button-landing" type="submit">Sign In</button>
+        </nav>
+      </div>
+
+      <div class="navbar" id="blur">
+        <div class="title-landing-page shadow">
+          <h1 class="nama-jumbotron">MilkShake Factory</h1>
+          <h3>Magical Flavor Mixtures</h3>
+          <p>
+            <q
+              >A combination of fresh fruit, smooth gliding ice and a touch of
+              premium ingredients, every sip is an unforgettable taste
+              adventure.</q
+            >
+          </p>
+          <label for="click" class="click-me button-order">Order Now</label>
+          <!-- <span class="sosmed"
+            ><a
+              href="https://www.instagram.com/sxnixe?igsh=MW5tZTJpZ2t1aGZ1dg=="
+              ><i class="fa-brands fa-instagram"></i></a
+          ></span>
+          <span class="sosmed"
+            ><a href="https://x.com/aboutsxnixe?t=7WmoFLY-X8J7u0FO9nwKKg&s=09"
+              ><i class="fa-brands fa-twitter"></i></a
+          ></span>
+          <span class="sosmed"
+            ><a href="https://www.tiktok.com/@sxn._.x?_t=8okYiuaS32g&_r=1"
+              ><i class="fa-brands fa-tiktok"></i></a
+          ></span> -->
+        </div>
+        <img
+          class="foto-awal"
+          src="images/Holiday_Strawberry_Milkshake-removebg-preview.png"
+          alt=""
+        />
+        <!-- <div class="pesan">
+          <h1 class="pesanan">
+            Hello welcome to Sunday mart! Would you like to order our menu?
+          </h1> -->
+          <!-- <form action="" method="get">
+            <table width="50%">
+              <tr>
+                <td><label class="pesan-sesuatu" for="nama">Name</label></td>
+                <td>:</td>
+                <td><input type="text" name="nama" id="nama" /></td>
+              </tr>
+              <tr>
+                <td>
+                  <label class="pesan-sesuatu" for="phone">Phone Number</label>
+                </td>
+                <td>:</td>
+                <td><input type="number" name="phone" id="phone" /></td>
+              </tr>
+              <tr>
+                <td>
+                  <label class="pesan-sesuatu" for="email">email Address</label>
+                </td>
+                <td>:</td>
+                <td><input type="email" name="email" id="email" /></td>
+              </tr>
+              <tr>
+                <td>
+                  <label class="pesan-sesuatu" for="nama-pesanan"
+                    >order name</label
+                  >
+                </td>
+                <td>:</td>
+                <td>
+                  <select name="nama-pesanan" id="nama-pesanan">
+                    <option value="Banana and Coconat Milk's">
+                      Banana and Coconat Milk's
+                    </option>
+                    <option value="Raspberry MilkShake">
+                      Raspberry MilkShake
+                    </option>
+                    <option value="Biscoff MilkShake">Biscoff MilkShake</option>
+                    <option value="Strawberry MilkShake">
+                      Strawberry MilkShake
+                    </option>
+                    <option value="Taro's MilkShake">Taro's MilkShake</option>
+                    <option value="Mint Chocolate MilkShake">
+                      Mint Chocolate MilkShake
+                    </option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  style="
+                    display: flex;
+                    justify-content: space-around;
+                    gap: 20px;
+                  "
+                >
+                  <button class="submit-button" type="submit">Submit</button>
+                  <button class="reset-button" type="reset">Reset</button>
+                </td>
+              </tr>
+            </table>
+          </form> -->
+
+          <section class="center">
+            <input type="checkbox" id="click" hidden>
+            
+            <div class="content">
+                <div class="header">
+                    <h2>Hello welcome to Sunday mart! Would you like to order our menu?</h2>
+                    <label for="click" class="fas fa-times"></label>
+                </div>
+                <!-- <label for="click" class="fas fa-check"></label> -->
+                <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam accusantium quasi nemo, qui aut voluptates quidem maiores? Beatae itaque optio ad! Architecto minus alias aspernatur, consectetur mollitia minima neque fugit iste quod maiores unde vel, quo velit magnam? Dolores consequuntur sapiente quia expedita, praesentium nam iusto modi accusantium adipisci enim vitae libero alias? Vel neque ullam optio nam non, repellat mollitia molestias provident quas at modi odit quo. Itaque necessitatibus quidem corporis ad odit ullam dolor possimus placeat perferendis modi quisquam, quis ratione, aspernatur ex inventore autem quos! Vel, rerum aliquid aliquam assumenda laboriosam recusandae esse unde! Possimus, similique. Magnam.</p> -->
+                <form action="" method="get">
+                  <table width="50%">
+                    <tr>
+                      <td><label class="pesan-sesuatu" for="nama">Name</label></td>
+                      <td>:</td>
+                      <td><input class="input-pesanan" type="text" name="nama" id="nama" /></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label class="pesan-sesuatu" for="phone">Phone Number</label>
+                      </td>
+                      <td>:</td>
+                      <td><input class="input-pesanan" type="number" name="phone" id="phone" /></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label class="pesan-sesuatu" for="email">email Address</label>
+                      </td>
+                      <td>:</td>
+                      <td><input class="input-pesanan" type="email" name="email" id="email" /></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label class="pesan-sesuatu" for="nama-pesanan"
+                          >order name</label
+                        >
+                      </td>
+                      <td>:</td>
+                      <td>
+                        <select name="nama-pesanan" id="nama-pesanan" class="input-pesanan">
+                          <option value="Banana and Coconat Milk's">
+                            Banana and Coconat Milk's
+                          </option>
+                          <option value="Raspberry MilkShake">
+                            Raspberry MilkShake
+                          </option>
+                          <option value="Biscoff MilkShake">Biscoff MilkShake</option>
+                          <option value="Strawberry MilkShake">
+                            Strawberry MilkShake
+                          </option>
+                          <option value="Taro's MilkShake">Taro's MilkShake</option>
+                          <option value="Mint Chocolate MilkShake">
+                            Mint Chocolate MilkShake
+                          </option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        style="
+                          display: flex;
+                          justify-content: space-around;
+                          gap: 20px;
+                        "
+                      >
+                        <button class="submit-button" type="submit">Submit</button>
+                        <button class="reset-button" type="reset">Reset</button>
+                        <label for="click" class="close-btn">Close</label>
+                      </td>
+                    </tr>
+                  </table>
+                </form>
+                <!-- <div class="line"></div> -->
+                <!-- <label for="click" class="close-btn">Close</label> -->
+            </div>
+          </section>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- HOME -->
+      <section id="home">
+        <h3 class="title-page">Home</h3>
+        <section id="section-home">
+          <div class="home-page">
+            <img
+              class="gambar-home"
+              src="/images/Oreo Milkshake Recipe — Salt & Baker.jpeg"
+              alt=""
+            />
+            <p class="home-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur rerum hic suscipit voluptatibus cupiditate ad in, vero
+              quis eos incidunt, veritatis repellat sed cum? Nihil ex unde
+              consectetur quo fuga, voluptates sapiente iure! Ipsam illo natus
+              aperiam quia debitis enim quas excepturi, quisquam dolor numquam
+              praesentium laboriosam, omnis aspernatur hic a odit harum
+              recusandae et laudantium maxime sit iure aut impedit minus.
+              Architecto blanditiis temporibus odio tenetur incidunt tempora et
+              reprehenderit corrupti repudiandae ipsa aliquid quibusdam neque
+              ipsam quidem laudantium harum nemo sint alias quia consectetur
+              ducimus mollitia, quis iure laborum. Laudantium vero dolorem eos
+              animi qui sit aspernatur ex facere molestias accusantium quidem
+              at, sapiente numquam aliquam doloribus dicta aliquid. Corporis
+              incidunt alias tempora sit architecto ipsa, reiciendis fugit hic
+              illum at asperiores consequatur. Fuga hic expedita praesentium
+              totam nisi, voluptate, veritatis quia quidem iure aperiam ad!
+              Eaque possimus quaerat adipisci ipsam, accusamus sint suscipit,
+              maiores iure ducimus quasi doloremque corporis nesciunt omnis!
+              Unde corporis quos non ratione, quia itaque illum repellat, dicta
+              laboriosam soluta similique assumenda labore hic, veritatis qui ab
+              officia? Ea quidem eaque asperiores modi iusto non, ipsum cumque
+              ipsa aut architecto harum sed alias possimus repellendus repellat
+              in tempora magni praesentium provident nisi amet
+            </p>
+          </div>
+        </section>
+      </section>
+
+      <!-- PRODUCT -->
+      <section id="product">
+        <h3 class="title-page">Product</h3>
+        <div class="spesial-edition">
+          <h3 class="title-page">Special Edition Menu</h3>
+          <div class="spesial-edition-div">
+            <div style="justify-content: center">
+              <center>
+                <h5>Banana and Coconat Milk's</h5>
+                <h5 style="text-align: center">$4.00</h5>
+
+                <button class="button-buy-spesial">Buy</button>
+                <button class="button-add-spesial">Add to Cart</button>
+              </center>
+            </div>
+            <img
+              class="spesial-edition-image"
+              src="/images/coconat.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <h3 class="title-page">All Product</h3>
+        <div class="card-wrapper-1">
+          <div class="card3">
+            <img
+              class="card-image"
+              src="/images/Raspberry Ice Cream Sundae.jpeg"
+              alt=""
+            />
+            <h4 class="nama-produk">Raspberry MilkShake</h4>
+            <h3 style="font-size: 35px">$2.00</h3>
+            <div class="flex-product">
+              <button class="button-card">Add to Cart</button>
+              <span class="cart"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+            </div>
+          </div>
+          <div class="card3">
+            <img
+              class="card-image"
+              src="/images/Biscoff milkshake.jpeg"
+              alt="biscoff milkshake"
+            />
+            <h4 class="nama-produk">Biscoff MilkShake</h4>
+            <h3 style="font-size: 35px">$2.10</h3>
+            <div class="flex-product">
+              <button class="button-card">Add to Cart</button>
+              <span class="cart"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+            </div>
+          </div>
+          <div class="card3">
+            <img
+              class="card-image"
+              src="/images/How to Make a Strawberry Milkshake without Ice Cream.jpeg"
+              alt=""
+            />
+            <h4 class="nama-produk">Strawberry MilkShake</h4>
+            <h3 style="font-size: 35px">$2.00</h3>
+            <div class="flex-product">
+              <button class="button-card">Add to Cart</button>
+              <span class="cart"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+            </div>
+          </div>
+          <div class="card3">
+            <img
+              class="card-image"
+              src="/images/Raspberry Ice Cream Sundae.jpeg"
+              alt=""
+            />
+            <h4 class="nama-produk">Raspberry MilkShake</h4>
+            <h3 style="font-size: 35px">$2.00</h3>
+            <div class="flex-product">
+              <button class="button-card">Add to Cart</button>
+              <span class="cart"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-wrapper-1">
+          <div class="card3">
+            <img
+              class="card-image"
+              src="/images/Strawberry Blueberry.jpeg"
+              alt=""
+            />
+            <h4 class="nama-produk">Strablue Milkshake</h4>
+            <h3 style="font-size: 35px">$2.70</h3>
+            <div class="flex-product">
+              <button class="button-card">Add to Cart</button>
+              <span class="cart"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+            </div>
+          </div>
+          <div class="card3">
+            <img
+              class="card-image"
+              src="/images/taro.jpg"
+              alt="biscoff milkshake"
+            />
+            <h4 class="nama-produk">Taro's MilkShake</h4>
+            <h3 style="font-size: 35px">$2.00</h3>
+            <div class="flex-product">
+              <button class="button-card">Add to Cart</button>
+              <span class="cart"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+            </div>
+          </div>
+          <div class="card3">
+            <img class="card-image" src="/images/mint chocolate.jpg" alt="" />
+            <h4 class="nama-produk">Mint Chocolate MilkShake</h4>
+            <h3 style="font-size: 35px">$3.00</h3>
+            <div class="flex-product">
+              <button class="button-card">Add to Cart</button>
+              <span class="cart"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- REVIEWS -->
+      <section id="reviews">
+        <h3 class="title-page">Reviews</h3>
+        <center>
+          <div class="review-page-all">
+            <h1 class="title-page">Add Review For Our Shop</h1>
+            <form action="" method="get">
+              <table width="50%">
+                <tr>
+                  <td><label class="contact-page" for="nama">Name</label></td>
+                  <td>:</td>
+                  <td><input type="text" name="nama" id="nama" /></td>
+                </tr>
+                <tr>
+                  <td>
+                    <label class="contact-page" for="email"
+                      >email Address</label
+                    >
+                  </td>
+                  <td>:</td>
+                  <td><input type="email" name="email" id="email" /></td>
+                </tr>
+                <tr>
+                  <td>
+                    <label class="contact-page" for="comment">Comments</label>
+                  </td>
+                  <td>:</td>
+                  <td><textarea name="comment" id="comment"></textarea></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>
+                    <button class="submit-button" type="submit">Submit</button>
+                    <button class="reset-button" type="reset">Reset</button>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </center>
+        <div class="review-card-all">
+          <div class="flex-card-review">
+            <div class="card-1-2">
+              <div class="reviews-card">
+                <img class="foto-ikon" src="/images/jisung.jpg" alt="" />
+                <h4 class="nama-review">Andy Park</h4>
+                <p>
+                  The shop is very nice, lots of delicious drinks. I like this
+                  cafe. It's really nice to be able to buy drinks here, the
+                  friendly service also really makes visitors feel at home in
+                  the cafe.
+                </p>
+              </div>
+
+              <div class="reviews-card">
+                <img class="foto-ikon" src="/images/karina.jpg" alt="" />
+                <h4 class="nama-review">Karinaaa</h4>
+                <p>
+                  I and my friends bought milkshakes at this shop last Sunday.
+                  like the name of the shop 'sunday', very pleasant. I will
+                  visit again if I go to Indonesia.
+                </p>
+              </div>
+            </div>
+            <div class="card-4-6">
+              <div class="reviews-card">
+                <img class="foto-ikon" src="/images/mark.jpg" alt="" />
+                <h4 class="nama-review">Lee Mark</h4>
+                <p>
+                  the place is amazing, I love the various comfortable corners
+                  of the room to visit while enjoying a delicious drink.
+                </p>
+              </div>
+
+              <div class="reviews-card">
+                <img class="foto-ikon" src="/images/rose.jpeg" alt="" />
+                <h4 class="nama-review">Rose's</h4>
+                <p>
+                  I tried buying a drink at this new shop, it turned out that
+                  the milkshakes they made were really delicious. I love the
+                  strawberry milkshake they make.
+                </p>
+              </div>
+            </div>
+            <div class="card-5-6">
+              <div class="reviews-card">
+                <img class="foto-ikon" src="/images/sunghoon.jpg" alt="" />
+                <h4 class="nama-review">Sunghoon</h4>
+                <p>
+                  It's very comfortable when relaxing in this cafe, the view
+                  from the top floor can calm my mind when I get home from work
+                </p>
+              </div>
+              <div class="reviews-card">
+                <img class="foto-ikon" src="/images/felix.jpg" alt="" />
+                <h4 class="nama-review">Felix skz</h4>
+                <p>Small cafe but five star service</p>
+              </div>
+            </div>
+          </div>
+          <center><button class="view-review">View More></button></center>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <center>
+        <section id="contact" style="margin-top: 0px">
+          <div class="contact-page-all">
+            <h1 class="title-page">Contact</h1>
+            <p style="font-size: 35px; text-align: center">
+              If you have a question, you can contact me in this form
+            </p>
+            <form action="" method="get">
+              <table width="50%">
+                <tr>
+                  <td><label class="contact-page" for="nama">Name</label></td>
+                  <td>:</td>
+                  <td><input type="text" name="nama" id="nama" /></td>
+                </tr>
+                <tr>
+                  <td>
+                    <label class="contact-page" for="phone">Phone Number</label>
+                  </td>
+                  <td>:</td>
+                  <td><input type="number" name="phone" id="phone" /></td>
+                </tr>
+                <tr>
+                  <td>
+                    <label class="contact-page" for="email"
+                      >email Address</label
+                    >
+                  </td>
+                  <td>:</td>
+                  <td><input type="email" name="email" id="email" /></td>
+                </tr>
+                <tr>
+                  <td>
+                    <label class="contact-page" for="message">Message</label>
+                  </td>
+                  <td>:</td>
+                  <td><textarea name="message" id="message"></textarea></td>
+                </tr>
+                <tr>
+                  <td>
+                    <button class="submit-button" type="submit">Submit</button>
+                    <button class="reset-button" type="reset">Reset</button>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </section>
+      </center>
+    </main>
+
+    <footer>
+      <div class="more-info">
+        <div class="street">
+          <p>Pamoyanan Street, Cianjur, West Java.</p>
+          <p>Braga Street, Bandung, West Java</p>
+          <p>Sudirman Street, Jakarta</p>
+        </div>
+        <div class="information">
+          <p>Home</p>
+          <p>About</p>
+          <p>Product</p>
+          <p>Reviews</p>
+        </div>
+        <div class="sosmed-info">
+          <span class="sosmed-info"
+              ><a
+                href="https://www.instagram.com/sxnixe?igsh=MW5tZTJpZ2t1aGZ1dg=="
+                ><i class="fa-brands fa-instagram"></i></a
+            ></span>
+            <span class="sosmed-info"
+              ><a href="https://x.com/aboutsxnixe?t=7WmoFLY-X8J7u0FO9nwKKg&s=09"
+                ><i class="fa-brands fa-twitter"></i></a
+            ></span>
+            <span class="sosmed-info"
+              ><a href="https://www.tiktok.com/@sxn._.x?_t=8okYiuaS32g&_r=1"
+                ><i class="fa-brands fa-tiktok"></i></a
+            ></span>
+        </div>
+      </div>
+      <p class="Copyright">Copyright &copy; 2024 Sania Eka Wardah (Sunday Mart).</p>
+    </footer>
+  </body>
+</html>
