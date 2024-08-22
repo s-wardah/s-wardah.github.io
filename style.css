@@ -612,6 +612,7 @@ form {
   #contact {
     width: 768px;
     display: grid;
+    margin: auto;
   }
 
   .button-buy-spesial,
