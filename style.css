@@ -758,6 +758,10 @@ form {
     width: 150px;
     font-size: 30px;
   }
+  .input-coment {
+    width: 400px;
+    justify-items: center;
+  }
 }
 
 @media (max-width: 768px) {
