@@ -81,7 +81,11 @@ a:hover {
   width: auto;
   height: 900px;
 }
-
+.input-pesanan {
+  width: 550px;
+  height: 40px;
+  border-radius: 20px;
+}
 .button-landing {
   background-color: #f8e8ee;
   color: #fe4c8d;
@@ -369,11 +373,23 @@ h5 {
   background-color: #f9f5f6;
   margin: 0;
   padding: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 .contact-page {
   font-size: 30px;
 }
-input {
+.contact-person {
+  background-color: #f794b8;
+  width: auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+.contact-page-all {
+  display: flex;
+  justify-content: space-evenly;
+}
+.input-coment {
   width: 500px;
   height: 70px;
   border-radius: 30px;
@@ -585,7 +601,7 @@ form {
   h5 {
     font-size: 60px;
   }
-  input,
+  .input-coment,
   textarea {
     width: 100%;
     font-size: 30px;
@@ -602,8 +618,13 @@ form {
   }
   #contact {
     width: 768px;
+    margin: auto;
+    display: grid;
   }
-
+  .contact-person {
+    width: 768px;
+    height: auto;
+  }
   .button-buy-spesial,
   .button-add-spesial {
     margin-bottom: 50px;
@@ -675,11 +696,11 @@ form {
   h5 {
     font-size: 50px;
   }
-  input,
+  /* input,
   textarea {
     width: 100%;
     font-size: 30px;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
@@ -757,6 +778,11 @@ form {
   .input-pesanan {
     width: 150px;
     font-size: 30px;
+    border-radius: 20px;
+  }
+  .input-coment {
+    width: 400px;
+    justify-items: center;
   }
 }
 
