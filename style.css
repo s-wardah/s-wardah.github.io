@@ -611,7 +611,7 @@ form {
   }
   #contact {
     width: 768px;
-    margin: 20px;
+    display: grid;
   }
 
   .button-buy-spesial,
