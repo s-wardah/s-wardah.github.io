@@ -772,6 +772,7 @@ form {
   .input-pesanan {
     width: 150px;
     font-size: 30px;
+    border-radius: 20px;
   }
   .input-coment {
     width: 400px;
