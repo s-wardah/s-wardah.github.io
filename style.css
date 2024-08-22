@@ -373,7 +373,19 @@ h5 {
 .contact-page {
   font-size: 30px;
 }
-input {
+.contact-person {
+  background-color: #f794b8;
+  padding: 20px;
+  border-radius: 20px;
+}
+.contact-page-all {
+  display: flex;
+  justify-content: space-evenly;
+}
+iframe {
+  margin: 200px;
+}
+.input-coment {
   width: 500px;
   height: 70px;
   border-radius: 30px;
