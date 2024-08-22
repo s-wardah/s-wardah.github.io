@@ -382,9 +382,6 @@ h5 {
   display: flex;
   justify-content: space-evenly;
 }
-iframe {
-  margin: 200px;
-}
 .input-coment {
   width: 500px;
   height: 70px;
@@ -614,6 +611,7 @@ form {
   }
   #contact {
     width: 768px;
+    margin: 20px;
   }
 
   .button-buy-spesial,
