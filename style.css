@@ -585,7 +585,7 @@ form {
   h5 {
     font-size: 60px;
   }
-  input,
+  .input-coment,
   textarea {
     width: 100%;
     font-size: 30px;
