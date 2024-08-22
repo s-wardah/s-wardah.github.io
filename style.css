@@ -81,7 +81,11 @@ a:hover {
   width: auto;
   height: 900px;
 }
-
+.input-pesanan {
+  width: 550px;
+  height: 40px;
+  border-radius: 20px;
+}
 .button-landing {
   background-color: #f8e8ee;
   color: #fe4c8d;
