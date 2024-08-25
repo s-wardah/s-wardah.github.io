@@ -118,6 +118,7 @@ a:hover {
   font-size: 45px;
   border-radius: 30px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 .button-order:hover {
   background-color: #fe4c8d;
