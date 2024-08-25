@@ -66,20 +66,21 @@ a:hover {
   margin-right: 200px;
 }
 .title-landing-page > h3 {
-  font-size: 60px;
+  font-size: 40px;
 }
 .title-landing-page > p {
-  font-size: 40px;
+  font-size: 30px;
 }
 .nama-jumbotron {
   font-family: "Times New Roman", Times, serif;
-  font-size: 150px;
   text-shadow: #fe4c8d;
-  font-size: 200px;
+  font-size: 150px;
 }
 .foto-awal {
   width: auto;
-  height: 900px;
+  margin-top: 100px;
+  height: 800px;
+  float: right;
 }
 .input-pesanan {
   width: 550px;
@@ -130,7 +131,7 @@ a:hover {
   font-size: 35px;
   gap: 10px;
   text-align: center;
-}*/
+} */
 #nama-pesanan {
   font-size: 35px;
   border-radius: 30px;
@@ -207,9 +208,10 @@ a:hover {
 .card-wrapper-1 {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
-.card3 {
+.card {
   box-shadow: 0px 0px 4px 2px #f17fa9;
   border-radius: 30px;
   margin: 20px;
@@ -315,6 +317,7 @@ h5 {
   margin-bottom: 0px;
 }
 .review-card-all {
+  /* display: flex; */
   background-color: #f69bb1;
   padding: 20px;
   margin: 50px;
@@ -364,7 +367,7 @@ h5 {
 }
 .flex-card-review {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 /* CONTACT */
@@ -780,7 +783,7 @@ form {
   }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .sosmed-info > a {
     font-size: 30px;
   }
@@ -788,5 +791,5 @@ form {
 @media (max-width: 480px) {
   .sosmed-info > a {
     font-size: 30px;
-  }
-}
+  } */
+/* } */
