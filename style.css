@@ -537,10 +537,10 @@ form {
 /* Responsive untuk tablet */
 @media (max-width: 768px) {
   .header-navbar {
-    width: 768px;
+    width: 810px;
   }
   .navbar {
-    width: 768px;
+    width: 810px;
     height: max-content;
   }
   .logo {
@@ -569,7 +569,7 @@ form {
     height: 600px;
   }
   #home {
-    width: 730px;
+    width: 750px;
   }
   .home-desc {
     width: 600px;
@@ -617,7 +617,8 @@ form {
     height: auto;
   }
   #product {
-    width: 768px;
+    width: 788px;
+    margin: auto;
   }
   #contact {
     width: 768px;
@@ -783,7 +784,7 @@ form {
     border-radius: 20px;
   }
   .input-coment {
-    width: 400px;
+    width: 200px;
     justify-items: center;
   }
 }
