@@ -568,6 +568,9 @@ form {
   .foto-awal {
     height: 600px;
   }
+  .button-order {
+    margin-bottom: 20px;
+  }
   #home {
     width: 750px;
   }
