@@ -396,6 +396,7 @@ h5 {
   height: 70px;
   border-radius: 30px;
   margin-bottom: 30px;
+  margin-right: 30px;
   font-size: 40px;
   font-family: "Times New Roman", Times, serif;
 }
@@ -619,13 +620,17 @@ form {
     width: 768px;
   }
   #contact {
-    width: 700px;
+    width: 768px;
     margin: auto;
     display: grid;
   }
+  table {
+    padding-right: 50px;
+  }
   .contact-person {
-    width: 768px;
+    width: 700px;
     height: auto;
+    margin: auto;
   }
   .button-buy-spesial,
   .button-add-spesial {
